@@ -5,13 +5,13 @@ This repo contains scrips for downloading YouTube videos. It creates folder for 
 
 
 ## Features
-:white_check_mark: Playlist videos downloader  ``playslist_download.py``
+:one: Playlist videos downloader  ``playslist_download.py``
 
-:white_check_mark: Video download ``video_download.py``
+:two: Video download ``video_download.py``
 
-:white_check_mark: Video to mp3 ``video_to_mp3.py`` using ``FFmpeg``
+:three: Video to mp3 ``video_to_mp3.py`` using ``FFmpeg``
 
-:white_check_mark: Playlist to mp3 ``playlist_to_mp3`` using ``FFmpeg``
+:four: Playlist to mp3 ``playlist_to_mp3.py`` using ``FFmpeg``
 
 
 
@@ -30,6 +30,38 @@ This repo contains scrips for downloading YouTube videos. It creates folder for 
 * Create download folder in the parent if not available; either ways the code will automatically create the necessary folders for you.
 
 
+
+## Usage
+ Each downloader has a avriable for link to playlist or video, replace with your link and with the env activated run the python respective script to download the video:question:
+
+### Download playlist videos
+
+```
+python3 playslist_download.py`
+```
+
+
+### Download a video
+
+```
+python3 video_download.py`
+```
+
+
+
+### Get mp3 for video
+
+```
+python3 video_to_mp3.py`
+```
+
+
+
+### Get mp3 for playlist
+
+```
+python3 playlist_to_mp3.py`
+```
 
 
 

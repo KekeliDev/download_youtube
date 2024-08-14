@@ -31,7 +31,7 @@ def update_progress_bar(d, pbar):
         pbar.update()
 
 if __name__ == "__main__":
-    playlist_url = "https://youtube.com/playlist?list=PLw8xXEJ0p21cvj68bpV9U7-BFvI7pcKUM&si=nh8S8BctYqWauMgo"
+    playlist_url = "" # YouTube Playlist link
     base_output_path = "./downloads/videos"
     os.makedirs(base_output_path, exist_ok=True)
     download_playlist(playlist_url, base_output_path)
